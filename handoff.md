@@ -7,27 +7,14 @@
 
 ## Observation
 
-- `main` observed at: `54b83622928865813aeb694b5ef0195052b9b226`
-  (the merge of pull request #15), confirmed by fetch
-- Working branch: `claude/handoff-item-1-2u2k20` — harness-assigned,
-  the recorded deviation. It revises
-  [m0017](matters/m0017-operator-authored-ratification.md) (the
-  step-by-step protocol; the operator's 2026-08-29 rulings applied)
-  and [m0024](matters/m0024-declared-sources.md), files
-  [m0025](matters/m0025-doctrine-enforcement-voice.md),
-  [m0026](matters/m0026-legibility-standard.md),
-  [m0027](matters/m0027-records-begin-at-the-gate.md),
-  [m0028](matters/m0028-challenged-state.md),
-  [m0029](matters/m0029-readme-dependency-model.md), and
-  [m0030](matters/m0030-error-log.md), revises
-  [m0008](matters/m0008-matter-tooling.md) (the commit-time index
-  check, e0001's guard), exports the session thread
-  ([threads/2026-08-29-complexity-escape-and-working-text.md](threads/2026-08-29-complexity-escape-and-working-text.md)),
-  and rewrites this file; per-commit `Matter:` trailers. Pull
-  request #16 is this branch's filing pull request, open at this
-  observation.
-- Observed at: `2026-08-29T17:06:10Z`
-- Closing actor: `claude-code/2026-08-29`
+- Local `main` observed at: `b8af6799aaf40d94339d937e3371228d744f0dc5`
+  (the merge of pull request #16), confirmed from the checkout.
+- Pull request #16 merged on 2026-09-04 at `22:58:17Z`, confirmed
+  through GitHub. Its filings and revisions remain proposals; the
+  merge performed no ratification.
+- Working branch: `main`.
+- Observed at: `2026-09-08T16:25:05Z`
+- Closing actor: `codex/2026-09-08`
 
 ## State
 
@@ -42,26 +29,23 @@
   [m0025](matters/m0025-doctrine-enforcement-voice.md), then
   [m0027](matters/m0027-records-begin-at-the-gate.md), then
   [m0017](matters/m0017-operator-authored-ratification.md) and the
-  rest. Under the same direction, `proposed` matters on this branch
+  rest. Under the same direction, `proposed` matters in PR #16
   carry no vetting entries: review was applied as edits, and the
   matter record begins at the ratification gate (the rule m0027
   proposes).
 
 ## Pending operator acts
 
-- Read pull request #16. The operator's chosen review channel is
-  §8's in-document review: `->[…]` comments committed to this
-  branch. A responding agent answers each comment, removes the
-  markers in its response commit, and exports the exchange as a
-  thread; the operator merges (merge commit) when satisfied.
-- Then the next action below. The 2026-08-29 session thread is
-  exported and cited from every matter it drove; no provenance gap
-  remains open on this branch.
+- Consider [m0026](matters/m0026-legibility-standard.md), as detailed
+  in the next action below.
+- PR #16's review and merge are complete. The 2026-08-29 session
+  thread was exported and cited before the merge; the previously
+  pending provenance gap is closed.
 
 ## Next action
 
 - **Classification:** `operator act`
-- **Repository and matter:** `markreveley/formic-matters`,
+- **Repository and matter:** `markreveley/rtr`,
   [m0026](matters/m0026-legibility-standard.md)
 - **Action:** the operator reads m0026 and either ratifies it under
   the current verbal mechanism of doctrine §6, “Vetting and
@@ -76,7 +60,8 @@
 
 ## Re-verification
 
-- `origin/main` and pull request #16 are external state; re-check
-  both against the observation above.
+- Re-check `origin/main` and the matter's current state before the
+  next action; the observation above records the completed PR #16
+  merge.
 - m0019 remains `proposed`, so the banner above stands. Nothing
   `proposed` governs; this file is pointers, not policy.
