@@ -11,6 +11,7 @@ threads:
   - threads/2026-08-24-matter-system.md
   - threads/2026-08-24-audit-and-adjudication.md
   - threads/2026-08-25-doctrine-operator-review.md
+  - threads/2026-09-10-legibility-and-thread-navigation.md
 generated:
   by: claude-code/2026-08-24
   at: 2026-08-24T22:33:00Z
