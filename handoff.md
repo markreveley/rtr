@@ -7,22 +7,21 @@
 
 ## Observation
 
-- Local `main` observed at: `e68a1a9bf219a2dace6f2c4e934b75d07db27639`,
-  confirmed from the checkout before this work. The working branch
-  carries m0026 revisions, m0031 and m0032 filings, the session export
-  and its verification, this handoff update, and the regenerated index.
-- Pull request #16 merged on 2026-09-04 at `22:58:17Z`, confirmed
-  through GitHub. Its filings and revisions remain proposals; the
-  merge performed no ratification.
-- Working branch: `m0026-legibility-and-thread-navigation`.
-- Observed at: `2026-09-10T22:26:44Z`
+- Local `main` observed at: `c8b11d77dafa05585ee30f1c53bcf9f931e996e6`,
+  synchronized with `origin/main` after pull request #17 merged.
+  That commit contains the m0026 revisions, m0031 and m0032 filings,
+  session exports, verification record, and regenerated matter index.
+- Pull request #17 merged on 2026-09-10 at `22:31:45Z`, confirmed
+  through GitHub. Its review and merge are complete. The matter
+  revisions and filings remain proposals; the merge performed no
+  ratification.
+- Observed at: `2026-09-10T22:33:09Z`
 - Updating actor: `codex/2026-09-10`
 
 ## State
 
 - Current working-tree state lives in each matter's frontmatter and
-  the derived [matters/index.md](matters/index.md). The observed
-  main commit above predates this branch's changes.
+  the derived [matters/index.md](matters/index.md).
 - Operator direction of 2026-08-29 (recorded in
   [threads/2026-08-29-complexity-escape-and-working-text.md](threads/2026-08-29-complexity-escape-and-working-text.md))
   sets the working order:
@@ -51,12 +50,6 @@
 
 - Consider [m0026](matters/m0026-legibility-standard.md), as detailed
   in the next action below.
-- Review the PR from `m0026-legibility-and-thread-navigation` and
-  merge or direct revisions. Its m0026 changes and m0031/m0032
-  filings remain proposals; merging them performs no ratification.
-- PR #16's review and merge are complete. The 2026-08-29 session
-  thread was exported and cited before the merge; the previously
-  pending provenance gap is closed.
 
 ## Next action
 
@@ -96,9 +89,9 @@
   export-and-push instruction and cited from m0011, m0026, m0031,
   and m0032. Its fidelity check is in
   [the verification record](runs/2026-09-10-thread-export-verification.md).
-- The operator authorized committing, pushing, and submitting a PR.
-  Verify the branch's remote state and review status before the next action;
-  authorization to persist proposals is not ratification.
+- PR #17 merged the exports, their citations, and the proposal
+  revisions into `main`. The earlier August session export also
+  remains preserved. The recorded persistence work is complete.
 - Filing m0032 does not install its exporter or generator. Existing
   exported threads can be parsed later; preservation of session
   evidence need not wait for those tools.
@@ -106,7 +99,7 @@
 ## Re-verification
 
 - Re-check `origin/main` and the matter's current state before the
-  next action; the observation above records the completed PR #16
+  next action; the observation above records the completed PR #17
   merge.
 - m0019 remains `proposed`, so the banner above stands. Nothing
   `proposed` governs; this file is pointers, not policy.
